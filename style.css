@@ -243,9 +243,108 @@ margin: 0 360px 0 0px;
     line-height: 1.5;
     padding: 0 432px 15px;
 }
+.holiday-img-top{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.holiday-img-top-1{
+    position: absolute;
+}
+.holiday-img-top-2{
+    position: absolute;
+    margin-top: 75px;
+    
+}
+.holiday-img-top-3{
+    padding: 0 0 0 148px;
+    
+}
+.holiday-img-bottom-1{
+    width: 100%;
+    border-radius: 15px 0 15px 15px;
+}
+/* the best gift */
+.best-gift{
+    margin: 80px 100px;
+}
+.best-gift-content{
+    line-height: .5;
+}
+.best-gift h3{
+    font-size: 24px;
+    color: #f00;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+.best-gift h1{
+    font-size: 48px;
+    color: black;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+}
+.best-gift p{
+    font-size: 20px;
+    color: #464646e0;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+}
+.best-gift-img img{
+    padding: 14px;
+    width: 31%;
+}
+/* subscribe-section */
 
+.subscribe-section{
+    margin: 80px 100px;
+    background-color: bisque;
+    border-radius: 15px;
+}
+.subscribe-section-full{
+    text-align: center;
+    padding: 40px 0;
+    
+}
+.subscribe-section-full h1{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
 
-
-
-
-
+}
+.subscribe-section-full p{
+    font-size: 20px;
+    color: #f5dbbd8a;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+form{
+    margin: 35px 0;
+}
+input{
+    background-color: white;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+}
+form button{
+    background-color:#f00;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+}
+/* Foooter section */
+.footer{
+    margin-top: 80px;
+    /* background-color: #070211; */
+    background-color: #f00;
+    padding: 80px 100px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-right img{
+    display: inline-block;
+}
