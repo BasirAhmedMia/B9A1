@@ -2,7 +2,10 @@
 /* font-family: 'Merriweather', serif; */
 /* font-family: 'Inter', sans-serif;*/
 
-/* all section design */
+*{
+ margin: 0;
+}
+/* header section design */
 
 header {
     background-image: url(resources/Banner\ Image.png);
@@ -16,11 +19,13 @@ header {
 
 .banner-1 {
     text-align: center;
-    padding: 215px 600px 0;
+    padding: 10px 0;
     background-color: #02020261;
-    height: 500px;
+    height: 730px;
 }
-
+.banner-1-content{
+    padding-top: 198px;
+}
 .banner-1 h2 {
     font-family: 'Merriweather', serif;
     font-size: 40px;
@@ -81,7 +86,6 @@ header {
     display: flex;
     padding: 165px 0;
     background-color: #02020261;
-    /* align-items: center; */
 }
 .banner-2-content-left{
     padding: 0 125px;
@@ -209,6 +213,7 @@ margin: 0 360px 0 0px;
     color:#464646e0;
     font-weight: 400;
 }
+
 /* holidays sale section  */
 .holiday-sale{
     margin: 80px 100px;
@@ -244,7 +249,6 @@ margin: 0 360px 0 0px;
     padding: 0 432px 15px;
 }
 .holiday-img-top{
-    /* position: absolute; */
     display: flex;
     justify-content: space-between;
     
@@ -299,7 +303,7 @@ margin: 0 360px 0 0px;
 
 .subscribe-section{
     margin: 80px 100px;
-    background-color: bisque;
+    background-color: #fff0ded9;
     border-radius: 15px;
 }
 .subscribe-section-full{
@@ -315,7 +319,7 @@ margin: 0 360px 0 0px;
 }
 .subscribe-section-full p{
     font-size: 20px;
-    color: #f5dbbd8a;
+    color: #3c3c3cd1;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
 }
@@ -336,15 +340,47 @@ form button{
 }
 /* Foooter section */
 .footer{
-    margin-top: 80px;
-    /* background-color: #070211; */
-    background-color: #f00;
+    margin-top: 20px;
+    background-color: #070211;
     padding: 80px 100px;
+   
 }
 .footer-top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
 }
-.footer-top-right img{
-    display: inline-block;
+.footer-top-left p{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    line-height: 2;
+}
+.footer-top-right{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    line-height: 2;
+}
+.footer-top-right p{
+    display: inline-block;  
+}
+.footer-social-media{
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-social-media img{
+    margin-right: 10px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    padding-top: 20px;
 }
