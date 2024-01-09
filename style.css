@@ -24,13 +24,14 @@ header {
     height: 730px;
 }
 .banner-1-content{
-    padding-top: 198px;
+    padding-top: 260px;
 }
 .banner-1 h2 {
     font-family: 'Merriweather', serif;
     font-size: 40px;
     font-weight: 400;
     color: #fff;
+    padding-bottom: 28px;
 }
 
 .banner-1 h1 {
@@ -51,6 +52,7 @@ header {
     font-weight: 700;
     color: #f00;
     font-family: 'Inter', sans-serif;
+    padding: 25px 0;
 }
 
 .offer-details p {
@@ -67,10 +69,11 @@ header {
     color: #070211;
     font-family: 'Inter', sans-serif;
     line-height: normal;
+    padding: 10px 0 35px;
 
 }
 
-/* offer section */
+/* banner 2 section */
 .banner-2 {
     background-image: url(resources/Vectorrr.png);
     overflow: hidden;
@@ -85,7 +88,8 @@ header {
 .banner-2-content {
     display: flex;
     padding: 165px 0;
-    background-color: #02020261;
+    background-color: #00000082;
+    align-items: center;
 }
 .banner-2-content-left{
     padding: 0 125px;
@@ -104,6 +108,7 @@ header {
     color: #cdcdcdde;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
+    padding: 25px 0;
 }
 
 .banner-2-content-left button{
@@ -112,11 +117,10 @@ header {
     font-family: 'Inter', sans-serif;
      border: none;
      background:none;
-     padding: 10px 20px;
      margin: 20px 0;
      color: #fff;
-     
 } 
+
 .banner-2-content-left button a{
     text-decoration: none;
     color: #fff;
@@ -132,6 +136,7 @@ header {
     background-color: #f1a6a652;
     border-radius: 15px;
     padding: 80px 0;
+    line-height: 1.5;
 }
 .event-content p{
     font-size: 30px;
@@ -145,17 +150,17 @@ header {
     font-weight: 600;
     font-family: 'Inter', sans-serif;
 }
-.event-section button, a{
-        font-size: 20px;
+.event-section button, .event-section button a {
+        font-size: 20px; 
         background-color: #f00;
-        padding: 18px 32px;
-        border-radius: 5px;
+        padding: 18px 25px;
+        border-radius: 10px;
         border: none;
         font-weight: 700;
         color: #fff;
         text-decoration: none;
         font-family: 'Inter', sans-serif;
-        margin-top: 15px;
+        margin-top: 40px;
 
 }
 /* new best offer */
@@ -192,7 +197,7 @@ header {
     font-family: 'Inter', sans-serif;    
 }
 .new-best-offer-middle-content{
-border: 10px solid red;
+border: 18px solid red;
 border-radius: 100%;
 padding: 25px;
 margin: 0 360px 0 0px;
@@ -233,6 +238,7 @@ margin: 0 360px 0 0px;
     font-weight: 900;
     font-family: 'Merriweather', serif;
     color: #f00;
+    padding: 25px 0;
 }
 .holiday-sale-top h1 span{
     font-size: 70;
@@ -246,7 +252,7 @@ margin: 0 360px 0 0px;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
     line-height: 1.5;
-    padding: 0 432px 15px;
+    padding: 0 432px 30px;
 }
 .holiday-img-top{
     display: flex;
@@ -274,7 +280,7 @@ margin: 0 360px 0 0px;
     margin: 80px 100px;
 }
 .best-gift-content{
-    line-height: .5;
+    padding: 30px 0;
 }
 .best-gift h3{
     font-size: 24px;
@@ -287,6 +293,7 @@ margin: 0 360px 0 0px;
     color: black;
     font-weight: 900;
     font-family: 'Merriweather', serif;
+    padding: 20px 0;
 }
 .best-gift p{
     font-size: 20px;
@@ -308,13 +315,14 @@ margin: 0 360px 0 0px;
 }
 .subscribe-section-full{
     text-align: center;
-    padding: 40px 0;
+    padding: 50px 0;
     
 }
 .subscribe-section-full h1{
     font-size: 48px;
     font-weight: 900;
     font-family: 'Merriweather', serif;
+    padding: 30px 0;
 
 }
 .subscribe-section-full p{
@@ -324,21 +332,21 @@ margin: 0 360px 0 0px;
     font-family: 'Inter', sans-serif;
 }
 form{
-    margin: 35px 0;
+    margin: 40px 0;
 }
 input{
     background-color: white;
-    padding: 15px 15px;
+    padding: 25px 35px;
     border: none;
-    border-radius: 20px 0 0 20px;
+    border-radius: 30px 0 0 30px;
 }
 form button{
     background-color:#f00;
-    padding: 15px 25px;
+    padding: 25px 35px;
     border: none;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 30px 30px 0;
 }
-/* Foooter section */
+/* Footer section */
 .footer{
     margin-top: 20px;
     background-color: #070211;
@@ -383,4 +391,7 @@ form button{
     font-family: 'Inter', sans-serif;
     color: #fff;
     padding-top: 20px;
+}
+hr{
+    border: 1px solid rgb(98 98 98 / 21%);
 }
